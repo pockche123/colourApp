@@ -1,0 +1,5 @@
+export { default as Home } from './Home'
+export { default as Colours } from './Colours'
+export { default as Colour } from './Colour'
+export { default as AddNew } from './AddNew'
+export { default as NotFound} from './NotFound'

@@ -1,0 +1,19 @@
+
+
+button:hover{
+color:darkgray;
+position: relative;
+border: 1px solid;
+}
+
+button:hover::after{
+    position: absolute; 
+    content: ''; 
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+}

@@ -1,0 +1,20 @@
+.colour-name {
+    overflow: hidden;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    list-style-type: none;
+    transition: 0.2s ease-in-out
+}
+
+
+.colour-name:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.colours {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Creates three columns with equal width */
+    gap: 16px;
+}
